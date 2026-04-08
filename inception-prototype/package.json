@@ -1,0 +1,14 @@
+{
+  "name": "c13b35b6237b335b",
+  "main": "c13b35b6237b335b@977.js",
+  "version": "977.0.0",
+  "homepage": "https://observablehq.com/d/c13b35b6237b335b",
+  "author": {
+    "name": "University of Waterloo",
+    "url": "https://observablehq.com/@university-of-waterloo"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}

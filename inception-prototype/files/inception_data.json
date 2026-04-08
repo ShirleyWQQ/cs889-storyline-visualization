@@ -1,0 +1,772 @@
+[
+  {
+    "chapter": 1,
+    "scene_id": 1,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 1,
+    "book_chapter_ref": "Beat 1",
+    "beat_short": "INC-01",
+    "beat_label": "Sedation and synchronized descent",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 1,
+    "session_title": "The team goes under on the flight",
+    "session_desc": "Plane cabin — Cobb's team sedates Fischer aboard the long-haul flight and begins the layered dream operation while Saito insists on staying inside the mission.",
+    "characters": ["Cobb", "Arthur", "Ariadne", "Eames", "Yusuf", "Saito", "Fischer"],
+    "motivations": {
+      "Cobb": "Control the job from the outset and keep the mission moving before his guilt destabilizes it.",
+      "Arthur": "Lock down the plan and make sure every layer will have a kick ready.",
+      "Ariadne": "Observe the architecture of the operation and watch for Cobb's hidden instability.",
+      "Eames": "Stay flexible and improvise the persona work needed deeper in the dream.",
+      "Yusuf": "Keep the sedation stable long enough for synchronized dream descent.",
+      "Saito": "Protect his investment and verify Fischer is actually vulnerable to inception.",
+      "Fischer": "Sleep through the setup, unaware that his mind is becoming the operation's battleground."
+    },
+    "tags": ["plane", "sedation", "setup", "heist"],
+    "location": "Plane cabin",
+    "event_summary": "Cobb's team sedates Fischer aboard the flight and begins the layered dream operation.",
+    "narrative_note": "Establishes the mission frame and places all major players inside the same high-risk setup.",
+    "story_time_label": "Flight T+00 · Plane",
+    "character_groups": {
+      "Cobb": ["extractor-team", "leader"],
+      "Arthur": ["extractor-team", "point-man"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Eames": ["extractor-team", "forger"],
+      "Yusuf": ["extractor-team", "chemist"],
+      "Saito": ["client", "ally"],
+      "Fischer": ["target", "mark"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Cobb",
+        "target": "Arthur",
+        "type": "alliance",
+        "polarity": "positive",
+        "strength": 5,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Ariadne",
+        "type": "mentor",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Saito",
+        "type": "alliance",
+        "polarity": "mixed",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["plane", "sedation", "setup", "heist", "phase:final-act", "book:inception", "rel:alliance", "rel:mentor"],
+    "pov_candidates": ["Cobb", "Ariadne", "Arthur", "Fischer", "Saito"]
+  },
+  {
+    "chapter": 2,
+    "scene_id": 2,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 2,
+    "book_chapter_ref": "Beat 2",
+    "beat_short": "INC-02",
+    "beat_label": "The layers open and resistance begins",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 2,
+    "session_title": "Layer 1 van ambush",
+    "session_desc": "Rainy city streets — Yusuf drives the van while armed projections attack, forcing the first layer into a rolling chase before the team has stabilized the dream.",
+    "characters": ["Yusuf", "Cobb", "Arthur", "Ariadne", "Eames", "Saito", "Fischer"],
+    "motivations": {
+      "Yusuf": "Keep the van moving and buy enough time for the deeper layers to form.",
+      "Cobb": "Protect Fischer and stop the first-layer chaos from collapsing the mission.",
+      "Arthur": "Maintain discipline despite the projections forcing improvisation.",
+      "Ariadne": "Track how outside pressure is already bending the dream structure.",
+      "Eames": "Stay ready to improvise as the operation slips away from the original script.",
+      "Saito": "Intervene aggressively before Fischer's defenses close off the mission.",
+      "Fischer": "React to the kidnapping scenario without realizing the threat is staged."
+    },
+    "tags": ["layer-1", "van", "ambush", "projections"],
+    "location": "Layer 1 — rainy city streets / van",
+    "event_summary": "Armed projections ambush the first dream layer and turn the opening into a moving chase.",
+    "narrative_note": "Introduces hostile resistance immediately and turns the clean extraction plan into reactive improvisation.",
+    "story_time_label": "Layer 1 · T+01",
+    "character_groups": {
+      "Yusuf": ["extractor-team", "chemist"],
+      "Cobb": ["extractor-team", "leader"],
+      "Arthur": ["extractor-team", "point-man"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Eames": ["extractor-team", "forger"],
+      "Saito": ["client", "ally"],
+      "Fischer": ["target", "mark"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Yusuf",
+        "target": "Cobb",
+        "type": "alliance",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Fischer",
+        "type": "mistrust",
+        "polarity": "mixed",
+        "strength": 3,
+        "visibility": "public",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["layer-1", "van", "ambush", "projections", "phase:final-act", "book:inception", "rel:alliance", "rel:mistrust"],
+    "pov_candidates": ["Cobb", "Yusuf", "Arthur", "Ariadne", "Fischer"]
+  },
+  {
+    "chapter": 2,
+    "scene_id": 3,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 2,
+    "book_chapter_ref": "Beat 2",
+    "beat_short": "INC-02",
+    "beat_label": "The layers open and resistance begins",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 3,
+    "session_title": "Layer 2 hotel setup",
+    "session_desc": "Hotel interior — Arthur shepherds Fischer through a carefully staged kidnapping scenario while Cobb and Ariadne quietly steer the emotional setup for the idea they want planted.",
+    "characters": ["Arthur", "Cobb", "Ariadne", "Eames", "Fischer", "Saito"],
+    "motivations": {
+      "Arthur": "Preserve the cover story and keep the middle layer coherent.",
+      "Cobb": "Shape Fischer's interpretation of events without revealing control.",
+      "Ariadne": "Watch Cobb's manipulations closely and learn how the architecture is being used psychologically.",
+      "Eames": "Prepare to step into a more active performative role once the deception deepens.",
+      "Fischer": "Interpret the hotel events as a betrayal plot that explains the kidnapping.",
+      "Saito": "Push the pace before Fischer's suspicion hardens into resistance."
+    },
+    "tags": ["layer-2", "hotel", "setup", "deception"],
+    "location": "Layer 2 — hotel interior",
+    "event_summary": "Arthur's hotel layer frames the kidnapping as a betrayal plot and positions Fischer for deeper manipulation.",
+    "narrative_note": "Begins the emotional reframing that the inception will depend on later.",
+    "story_time_label": "Layer 2 · T+01",
+    "character_groups": {
+      "Arthur": ["extractor-team", "point-man"],
+      "Cobb": ["extractor-team", "leader"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Eames": ["extractor-team", "forger"],
+      "Fischer": ["target", "mark"],
+      "Saito": ["client", "ally"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Arthur",
+        "target": "Cobb",
+        "type": "alliance",
+        "polarity": "positive",
+        "strength": 5,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Ariadne",
+        "type": "mentor",
+        "polarity": "positive",
+        "strength": 3,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Fischer",
+        "type": "mistrust",
+        "polarity": "mixed",
+        "strength": 3,
+        "visibility": "public",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["layer-2", "hotel", "setup", "deception", "phase:final-act", "book:inception", "rel:alliance", "rel:mentor", "rel:mistrust"],
+    "pov_candidates": ["Arthur", "Cobb", "Ariadne", "Fischer"]
+  },
+  {
+    "chapter": 2,
+    "scene_id": 4,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 2,
+    "book_chapter_ref": "Beat 2",
+    "beat_short": "INC-02",
+    "beat_label": "The layers open and resistance begins",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 4,
+    "session_title": "Layer 3 snow-fortress briefing",
+    "session_desc": "Snow fortress perimeter — Eames and Ariadne position Fischer for a militarized assault on the subconscious stronghold where the planted idea must feel self-discovered.",
+    "characters": ["Eames", "Ariadne", "Fischer"],
+    "motivations": {
+      "Eames": "Turn the deep layer into a persuasive drama Fischer will inhabit willingly.",
+      "Ariadne": "Track the plan's emotional logic and look for where Cobb's buried guilt may surface.",
+      "Fischer": "Pursue the mystery of the stronghold as though it contains the truth about his father."
+    },
+    "tags": ["layer-3", "snow-fortress", "briefing", "target"],
+    "location": "Layer 3 — snow fortress perimeter",
+    "event_summary": "Eames and Ariadne stage the deep assault so Fischer will experience the target vault as his own revelation.",
+    "narrative_note": "Introduces the deepest layer as a theatrical but psychologically directed space.",
+    "story_time_label": "Layer 3 · T+01",
+    "character_groups": {
+      "Eames": ["extractor-team", "forger"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Fischer": ["target", "mark"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Eames",
+        "target": "Fischer",
+        "type": "mistrust",
+        "polarity": "mixed",
+        "strength": 3,
+        "visibility": "public",
+        "render_in_chart": true
+      },
+      {
+        "source": "Ariadne",
+        "target": "Fischer",
+        "type": "care",
+        "polarity": "mixed",
+        "strength": 2,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["layer-3", "snow-fortress", "briefing", "target", "phase:final-act", "book:inception", "rel:mistrust", "rel:care"],
+    "pov_candidates": ["Eames", "Ariadne", "Fischer"]
+  },
+  {
+    "chapter": 3,
+    "scene_id": 5,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 3,
+    "book_chapter_ref": "Beat 3",
+    "beat_short": "INC-03",
+    "beat_label": "Cross-cut pressure across the layers",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 5,
+    "session_title": "Layer 1 chase under rain and gunfire",
+    "session_desc": "Rain-soaked city chase — Yusuf races the van through traffic and gunfire while the first layer's instability threatens every deeper level of the mission.",
+    "characters": ["Yusuf", "Cobb", "Fischer", "Saito"],
+    "motivations": {
+      "Yusuf": "Survive the chase and keep the falling-van kick usable later.",
+      "Cobb": "Protect Fischer long enough for the idea to take root deeper down.",
+      "Fischer": "Respond to danger as though the kidnapping and pursuit are real.",
+      "Saito": "Stay involved despite worsening injuries and rising risk."
+    },
+    "tags": ["layer-1", "chase", "rain", "pressure"],
+    "location": "Layer 1 — chase route / van",
+    "event_summary": "Yusuf's chase destabilizes the first layer and raises the stakes for every synchronized layer beneath it.",
+    "narrative_note": "Makes the mission's timing problem visible across the whole nested structure.",
+    "story_time_label": "Layer 1 · T+02",
+    "character_groups": {
+      "Yusuf": ["extractor-team", "chemist"],
+      "Cobb": ["extractor-team", "leader"],
+      "Fischer": ["target", "mark"],
+      "Saito": ["client", "ally"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Yusuf",
+        "target": "Cobb",
+        "type": "alliance",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Saito",
+        "type": "care",
+        "polarity": "mixed",
+        "strength": 2,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["layer-1", "chase", "rain", "pressure", "phase:final-act", "book:inception", "rel:alliance", "rel:care"],
+    "pov_candidates": ["Yusuf", "Cobb", "Saito", "Fischer"]
+  },
+  {
+    "chapter": 3,
+    "scene_id": 6,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 3,
+    "book_chapter_ref": "Beat 3",
+    "beat_short": "INC-03",
+    "beat_label": "Cross-cut pressure across the layers",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 6,
+    "session_title": "Layer 2 zero-gravity fight begins",
+    "session_desc": "Hotel corridors — As the van's motion disrupts gravity, Arthur is forced into a rotating close-quarters fight to keep the hotel layer intact and the kick viable.",
+    "characters": ["Arthur"],
+    "motivations": {
+      "Arthur": "Hold the middle layer together alone and improvise a kick under impossible physical conditions."
+    },
+    "tags": ["layer-2", "hotel", "zero-gravity", "fight"],
+    "location": "Layer 2 — hotel corridors",
+    "event_summary": "Arthur's hotel layer loses stable gravity, turning his defense of the mission into a rotating close-quarters fight.",
+    "narrative_note": "Isolates Arthur and makes the synchronized-kick problem physically visible.",
+    "story_time_label": "Layer 2 · T+02",
+    "character_groups": {
+      "Arthur": ["extractor-team", "point-man"]
+    },
+    "relationship_edges": [],
+    "annotation_tags": ["layer-2", "hotel", "zero-gravity", "fight", "phase:final-act", "book:inception"],
+    "pov_candidates": ["Arthur"]
+  },
+  {
+    "chapter": 3,
+    "scene_id": 7,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 3,
+    "book_chapter_ref": "Beat 3",
+    "beat_short": "INC-03",
+    "beat_label": "Cross-cut pressure across the layers",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 7,
+    "session_title": "Layer 3 fortress breach",
+    "session_desc": "Snow fortress exterior — Eames leads the armed push toward the stronghold while Ariadne tries to keep Fischer's emotional trajectory aligned with the plan.",
+    "characters": ["Eames", "Ariadne", "Fischer"],
+    "motivations": {
+      "Eames": "Sell the military assault convincingly enough that Fischer commits to it emotionally.",
+      "Ariadne": "Guide Fischer inward while watching for signs that Cobb's buried memories are bleeding through.",
+      "Fischer": "Treat the raid as a path toward hidden truth about his father and inheritance."
+    },
+    "tags": ["layer-3", "fortress", "assault", "fischer"],
+    "location": "Layer 3 — fortress exterior",
+    "event_summary": "The team breaches the snow fortress and steers Fischer toward the vault that will frame the planted idea as self-revelation.",
+    "narrative_note": "Pushes the deepest layer from setup into active resolution.",
+    "story_time_label": "Layer 3 · T+02",
+    "character_groups": {
+      "Eames": ["extractor-team", "forger"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Fischer": ["target", "mark"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Ariadne",
+        "target": "Fischer",
+        "type": "care",
+        "polarity": "mixed",
+        "strength": 3,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Eames",
+        "target": "Ariadne",
+        "type": "alliance",
+        "polarity": "positive",
+        "strength": 3,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["layer-3", "fortress", "assault", "fischer", "phase:final-act", "book:inception", "rel:care", "rel:alliance"],
+    "pov_candidates": ["Eames", "Ariadne", "Fischer"]
+  },
+
+  {
+    "chapter": 4,
+    "scene_id": 9,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 4,
+    "book_chapter_ref": "Beat 4",
+    "beat_short": "INC-04",
+    "beat_label": "Kick timing and Mal's disruption",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 8,
+    "session_title": "Layer 1 bridge plunge",
+    "session_desc": "Bridge and river drop — Yusuf and the wounded Saito remain in the falling van layer, preserving the master kick timing while the deeper team proceeds.",
+    "characters": ["Yusuf", "Saito"],
+    "motivations": {
+      "Yusuf": "Control the plunge long enough that the first-layer impact can still wake the upper layers on cue.",
+      "Saito": "Hold on through worsening pain as the mission becomes physically unsustainable."
+    },
+    "tags": ["layer-1", "bridge", "free-fall", "kick"],
+    "location": "Layer 1 — bridge plunge / van",
+    "event_summary": "Yusuf and Saito remain in the van layer to preserve the falling-vehicle kick while the deeper team continues.",
+    "narrative_note": "Creates a clean concurrent upper-layer band where Yusuf and Saito are visibly left behind.",
+    "story_time_label": "Layer 1 · T+03",
+    "character_groups": {
+      "Yusuf": ["extractor-team", "chemist"],
+      "Saito": ["client", "ally"]
+    },
+    "relationship_edges": [],
+    "annotation_tags": ["layer-1", "bridge", "free-fall", "kick", "concurrent", "phase:final-act", "book:inception"],
+    "pov_candidates": ["Yusuf", "Saito"]
+  },
+  {
+    "chapter": 4,
+    "scene_id": 9,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 4,
+    "book_chapter_ref": "Beat 4",
+    "beat_short": "INC-04",
+    "beat_label": "Kick timing and Mal's disruption",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 9,
+    "session_title": "Layer 2 elevator kick prep",
+    "session_desc": "Floating hotel shaft — Arthur remains behind in the hotel layer, engineering the elevator kick while the deeper team continues below him.",
+    "characters": ["Arthur"],
+    "motivations": {
+      "Arthur": "Engineer a kick under impossible conditions and preserve timing for the layers below."
+    },
+    "tags": ["layer-2", "elevator", "kick", "zero-gravity"],
+    "location": "Layer 2 — hotel shaft / elevator",
+    "event_summary": "Arthur stays in the hotel layer to prepare the middle kick while the deeper team advances.",
+    "narrative_note": "Creates a second concurrent band aligned with Yusuf's upper-layer hold.",
+    "story_time_label": "Layer 2 · T+03",
+    "character_groups": {
+      "Arthur": ["extractor-team", "point-man"]
+    },
+    "relationship_edges": [],
+    "annotation_tags": ["layer-2", "elevator", "kick", "zero-gravity", "concurrent", "phase:final-act", "book:inception"],
+    "pov_candidates": ["Arthur"]
+  },
+  {
+    "chapter": 4,
+    "scene_id": 9,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 4,
+    "book_chapter_ref": "Beat 4",
+    "beat_short": "INC-04",
+    "beat_label": "Kick timing and Mal's disruption",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 10,
+    "session_title": "Layer 3 sickroom deception",
+    "session_desc": "Fortress sickroom — Cobb, Ariadne, Eames, and Fischer continue deeper, steering Fischer toward the vault while Yusuf and Arthur remain in the upper layers.",
+    "characters": ["Cobb", "Ariadne", "Eames", "Fischer"],
+    "motivations": {
+      "Cobb": "Move Fischer to the vault while keeping the emotional narrative coherent.",
+      "Ariadne": "Watch Cobb's strategy for signs that Mal will intrude again.",
+      "Eames": "Perform the false father-confidant role convincingly enough that Fischer lowers his defenses.",
+      "Fischer": "Treat the apparent bedside revelation as the key to understanding his father."
+    },
+    "tags": ["layer-3", "forgery", "sickroom", "vault"],
+    "location": "Layer 3 — fortress sickroom",
+    "event_summary": "Cobb, Ariadne, Eames, and Fischer continue deeper while Yusuf and Arthur remain in the upper layers.",
+    "narrative_note": "Creates the main deep-layer concurrent band opposite the upper kick-preparation bands.",
+    "story_time_label": "Layer 3 · T+03",
+    "character_groups": {
+      "Cobb": ["extractor-team", "leader"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Eames": ["extractor-team", "forger"],
+      "Fischer": ["target", "mark"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Eames",
+        "target": "Fischer",
+        "type": "mistrust",
+        "polarity": "mixed",
+        "strength": 2,
+        "visibility": "public",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Ariadne",
+        "type": "mentor",
+        "polarity": "mixed",
+        "strength": 3,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["layer-3", "forgery", "sickroom", "vault", "concurrent", "phase:final-act", "book:inception", "rel:mistrust", "rel:mentor"],
+    "pov_candidates": ["Eames", "Cobb", "Ariadne", "Fischer"]
+  },
+  {
+    "chapter": 4,
+    "scene_id": 10,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 4,
+    "book_chapter_ref": "Beat 4",
+    "beat_short": "INC-04",
+    "beat_label": "Kick timing and Mal's disruption",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 11,
+    "session_title": "Limbo breach and Mal's return",
+    "session_desc": "Limbo shoreline and ruined city — Mal erupts back into the mission's logic, forcing Cobb and Ariadne to confront the unstable personal history that keeps breaking into the heist.",
+    "characters": ["Cobb", "Ariadne", "Mal", "Saito"],
+    "motivations": {
+      "Cobb": "Face the projection he has been denying long enough to recover the mission.",
+      "Ariadne": "Pull Cobb toward honesty before his guilt destroys both the job and Fischer's mind.",
+      "Mal": "Keep Cobb inside the fantasy of the life he built with her in limbo.",
+      "Saito": "Survive the slipping layers long enough to be found again."
+    },
+    "tags": ["limbo", "mal", "intrusion", "guilt"],
+    "location": "Limbo — shoreline / ruined city",
+    "event_summary": "Mal's return drags Cobb's unresolved guilt into the open and threatens to collapse the operation from inside.",
+    "narrative_note": "Shifts the climax from procedural heist timing to Cobb's emotional reckoning.",
+    "story_time_label": "Limbo · T+03",
+    "character_groups": {
+      "Cobb": ["extractor-team", "leader"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Mal": ["limbo-echo", "projection"],
+      "Saito": ["client", "ally"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Cobb",
+        "target": "Mal",
+        "type": "romantic-ambiguous",
+        "polarity": "mixed",
+        "strength": 5,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Ariadne",
+        "target": "Cobb",
+        "type": "care",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["limbo", "mal", "intrusion", "guilt", "phase:final-act", "book:inception", "rel:romantic-ambiguous", "rel:care"],
+    "pov_candidates": ["Cobb", "Ariadne", "Mal", "Saito"]
+  },
+
+  {
+    "chapter": 5,
+    "scene_id": 12,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 5,
+    "book_chapter_ref": "Beat 5",
+    "beat_short": "INC-05",
+    "beat_label": "Fischer resolves and the kicks cascade",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 12,
+    "session_title": "Layer 3 strongroom catharsis",
+    "session_desc": "Fortress strongroom — Fischer and Eames remain in the deepest active layer as the planted idea lands and the vault revelation resolves.",
+    "characters": ["Fischer", "Eames"],
+    "motivations": {
+      "Fischer": "Accept the emotional meaning of the vault as a private revelation rather than a manipulation.",
+      "Eames": "Hold the performance world together long enough for the idea to feel self-generated."
+    },
+    "tags": ["layer-3", "strongroom", "pinwheel", "inception"],
+    "location": "Layer 3 — fortress strongroom",
+    "event_summary": "Fischer resolves the vault revelation in the deepest active layer while other characters remain elsewhere.",
+    "narrative_note": "Creates a distinct deep-layer concurrent band centered on Fischer's emotional resolution.",
+    "story_time_label": "Layer 3 · T+04",
+    "character_groups": {
+      "Fischer": ["target", "mark"],
+      "Eames": ["extractor-team", "forger"]
+    },
+    "relationship_edges": [],
+    "annotation_tags": ["layer-3", "strongroom", "pinwheel", "inception", "concurrent", "phase:final-act", "book:inception"],
+    "pov_candidates": ["Fischer", "Eames"]
+  },
+  {
+    "chapter": 5,
+    "scene_id": 12,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 5,
+    "book_chapter_ref": "Beat 5",
+    "beat_short": "INC-05",
+    "beat_label": "Fischer resolves and the kicks cascade",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 13,
+    "session_title": "Limbo confrontation with Mal",
+    "session_desc": "Limbo apartment and shoreline — Cobb and Ariadne confront Mal in limbo while the upper layers continue their synchronized exit.",
+    "characters": ["Cobb", "Ariadne", "Mal"],
+    "motivations": {
+      "Cobb": "Let go of Mal's projection so he can rejoin reality instead of repeating limbo's trap.",
+      "Ariadne": "Help Cobb reach the insight he keeps evading, then leave before limbo takes her too.",
+      "Mal": "Hold Cobb inside the unresolved fantasy that has sustained her existence as a projection."
+    },
+    "tags": ["limbo", "confession", "mal", "release"],
+    "location": "Limbo — apartment / shoreline",
+    "event_summary": "Cobb and Ariadne confront Mal in limbo while the upper layers continue their synchronized exit.",
+    "narrative_note": "Creates a second concurrent band where Cobb and Ariadne are separated from the upper-layer kick execution.",
+    "story_time_label": "Limbo · T+04",
+    "character_groups": {
+      "Cobb": ["extractor-team", "leader"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Mal": ["limbo-echo", "projection"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Cobb",
+        "target": "Mal",
+        "type": "romantic-ambiguous",
+        "polarity": "mixed",
+        "strength": 5,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Ariadne",
+        "target": "Cobb",
+        "type": "care",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["limbo", "confession", "mal", "release", "concurrent", "phase:final-act", "book:inception", "rel:romantic-ambiguous", "rel:care"],
+    "pov_candidates": ["Cobb", "Ariadne", "Mal"]
+  },
+  {
+    "chapter": 5,
+    "scene_id": 12,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 5,
+    "book_chapter_ref": "Beat 5",
+    "beat_short": "INC-05",
+    "beat_label": "Fischer resolves and the kicks cascade",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 14,
+    "session_title": "Upper-layer kick execution",
+    "session_desc": "Across the upper layers — Yusuf, Arthur, and Saito remain in the higher levels to deliver the kick cascade while Cobb and Ariadne are still in limbo and Fischer resolves the vault below.",
+    "characters": ["Yusuf", "Arthur", "Saito"],
+    "motivations": {
+      "Yusuf": "Time the first impact that will trigger the cascade upward.",
+      "Arthur": "Deliver the middle-layer kick at the exact instant the deeper layers need it.",
+      "Saito": "Hold onto the promise that Cobb will return for him."
+    },
+    "tags": ["kick", "synchronization", "cascade", "wake-up"],
+    "location": "Cross-layer synchronization",
+    "event_summary": "Yusuf, Arthur, and Saito carry the upper-layer kick execution while Cobb and Ariadne remain in limbo and Fischer resolves the vault below.",
+    "narrative_note": "Creates an upper-layer concurrent band that visually separates the kick team from the deeper emotional resolution bands.",
+    "story_time_label": "Cross-layer · T+04",
+    "character_groups": {
+      "Yusuf": ["extractor-team", "chemist"],
+      "Arthur": ["extractor-team", "point-man"],
+      "Saito": ["client", "ally"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Arthur",
+        "target": "Yusuf",
+        "type": "alliance",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["kick", "synchronization", "cascade", "wake-up", "concurrent", "phase:final-act", "book:inception", "rel:alliance"],
+    "pov_candidates": ["Arthur", "Yusuf", "Saito"]
+  },
+
+  {
+    "chapter": 6,
+    "scene_id": 15,
+    "book": "Inception",
+    "book_num": 1,
+    "book_name": "Inception",
+    "chapter_in_book": 6,
+    "book_chapter_ref": "Beat 6",
+    "beat_short": "INC-06",
+    "beat_label": "Wake-up and unresolved ending",
+    "story_time_iso": null,
+    "story_date": null,
+    "session_group": 15,
+    "session_title": "Back on the plane",
+    "session_desc": "Plane cabin and arrivals hall — The team wakes in sequence, Fischer carries the new idea into waking life, and Cobb returns home to his children under the film's lingering ambiguity.",
+    "characters": ["Cobb", "Arthur", "Ariadne", "Eames", "Yusuf", "Saito", "Fischer"],
+    "motivations": {
+      "Cobb": "Test whether he can re-enter ordinary life after choosing reality over guilt.",
+      "Arthur": "Confirm the operation completed without exposing the team.",
+      "Ariadne": "Leave the mission changed by what she learned about dream architecture and Cobb.",
+      "Eames": "Exit cleanly after the most unstable job the team has attempted.",
+      "Yusuf": "Shake off the sedation and see whether the synchronized structure held.",
+      "Saito": "Use his restored leverage to clear Cobb's path home.",
+      "Fischer": "Act on the new belief that his father wanted him to build something for himself."
+    },
+    "tags": ["plane", "waking", "ambiguity", "ending"],
+    "location": "Plane cabin / arrivals hall / Cobb's home",
+    "event_summary": "The team wakes, Fischer carries the planted idea into waking life, and Cobb returns home under an unresolved final image.",
+    "narrative_note": "Closes the operational plot while preserving the film's ambiguity about reality and perception.",
+    "story_time_label": "Flight T+Final · Wake-up",
+    "character_groups": {
+      "Cobb": ["extractor-team", "leader"],
+      "Arthur": ["extractor-team", "point-man"],
+      "Ariadne": ["extractor-team", "architect"],
+      "Eames": ["extractor-team", "forger"],
+      "Yusuf": ["extractor-team", "chemist"],
+      "Saito": ["client", "ally"],
+      "Fischer": ["target", "mark"]
+    },
+    "relationship_edges": [
+      {
+        "source": "Cobb",
+        "target": "Saito",
+        "type": "alliance",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      },
+      {
+        "source": "Cobb",
+        "target": "Ariadne",
+        "type": "trust",
+        "polarity": "positive",
+        "strength": 4,
+        "visibility": "private",
+        "render_in_chart": true
+      }
+    ],
+    "annotation_tags": ["plane", "waking", "ambiguity", "ending", "phase:final-act", "book:inception", "rel:alliance", "rel:trust"],
+    "pov_candidates": ["Cobb", "Ariadne", "Fischer", "Saito"]
+  }
+]

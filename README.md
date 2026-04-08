@@ -7,7 +7,7 @@ The main prototype uses **The Hunger Games trilogy** as its primary case study a
 
 A secondary prototype based on **Inception** was also developed as a small extension study. This version explores whether the same scene-and-character abstraction can support more layered temporal structure and simultaneous interaction bands.
 
-The project was developed primarily in **Observable** using **D3** and then exported as a runnable local package.
+The project was developed primarily in Observable using D3 and then exported as a runnable local package.
 
 ## Live Observable Notebooks
 
@@ -41,6 +41,8 @@ The main prototype expects two JSON data files:
 
 2. `hunger_games_in_story_timeline_complete_renumbered.json`  
    In-story timeline data used for chronology-based exploration.
+
+The secondary prototype (Inception) expects the JSON data file `inception_data.json`.
 
 If these files are missing or renamed, the exported notebook may fail to load correctly.
 
@@ -103,7 +105,6 @@ main.value("foo").then(value => console.log(value));
 Then open `index.html` through that local server.
 
 ## Notes
-- This is a research prototype developed in Observable with D3.
 - Some semantic metadata including faction and relationship labels was manually curated.
 - The Hunger Games notebook is the primary final-project implementation.
 - The Inception notebook is a smaller secondary prototype demonstrating possible extension to narratives with more simultaneous interaction bands and layered temporal structure.
